@@ -6,9 +6,13 @@ Package to determine whether a list of strings contains date-time or float types
 
 The latest version can be cloned from the GitHub repository and installed as usual with pip:
 
-    git clone https://github.com/alekraus/cleanlist
-    
+    git clone https://github.com/alekraus/cleanlist.git
+    cd cleanlist
     python -m pip install .
+    
+Alternatively, the latest version can be installed with a temporary git clone using pip:
+
+    python -m pip install git+https://github.com/alekraus/cleanlist.git
 
 ## Descriptions of included functions
 
